@@ -1,3 +1,4 @@
 streamlit
-langchain-huggingface
+langchain-huggingface==0.0.24
+torch
 transformers
