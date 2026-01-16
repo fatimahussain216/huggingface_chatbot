@@ -9,7 +9,7 @@ Original file is located at
 
 from langchain_core.output_parsers import StrOutputParser
 from langchain_huggingface import ChatHuggingFace,HuggingFaceEndpoint
-from langchain_core.prompts import PromptTemplate
+
 import streamlit as st
 import os
 def bot():
