@@ -1,5 +1,5 @@
 streamlit
-langchain-huggingface
+langchain-huggingface==0.2.0
 transformers
 huggingface-hub
 torch
