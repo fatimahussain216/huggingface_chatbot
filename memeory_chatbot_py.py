@@ -8,7 +8,6 @@ Original file is located at
 """
 
 
-from langchain_huggingface import ChatHuggingFace
 from langchain_huggingface import HuggingFaceEndpoint
 import streamlit as st
 import os
