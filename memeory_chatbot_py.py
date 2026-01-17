@@ -36,7 +36,7 @@ def bot():
 
     #model UI
 st.set_page_config(page_title="Chat Bot",page_icon="🤖")
-st.title("Chat Bot")
+st.title(" Chat Bot ")
 st.markdown("This is a chat bot")
 st.markdown("Enter your query below")
 if "history" not in st.session_state:
