@@ -49,7 +49,7 @@ with st.spinner("wait generate the answer"):
     st.success("ans generate")
     ai_ans=st.write(ans.content)
     
-    st.session_state["history"].append((user_input, ans))
+    st.session_state["history"].append((user_input, ai_ans))
 
 for i, (user_q, bot_a) in enumerate(st.session_state["history"]):
     st.markdown(f"**You:** {user_input}")
