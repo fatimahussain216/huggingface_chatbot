@@ -47,8 +47,8 @@ with st.spinner("wait generate the answer"):
     model = bot()
     ans=model.invoke(user_input)
     st.success("ans generate")
-    ai_ans=st.write(ans.content)
-    
+    ai_ans=ans.content
+    st.write(ai_ans)
     st.session_state["history"].append((user_input, ai_ans))
 
 for i, (user_q, bot_a) in enumerate(st.session_state["history"]):
