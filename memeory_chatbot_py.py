@@ -14,7 +14,7 @@ import streamlit as st
 import os
 def bot():
 
-    load_dotenv()
+    
 
     api_key = st.secrets["Hugging_Face_api_key"]
     llm = HuggingFaceEndpoint(
