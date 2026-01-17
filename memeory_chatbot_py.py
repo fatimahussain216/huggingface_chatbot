@@ -16,7 +16,7 @@ def bot():
 
     load_dotenv()
 
-    api_key = os.getenv("HUGGINGFACE_API_KEY")
+    api_key = st.secrets["Hugging_Face_api_key"]
     llm = HuggingFaceEndpoint(
         repo_id="google/gemma-2-2b-it",
         task="text-generation",
